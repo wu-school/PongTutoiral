@@ -1,3 +1,5 @@
+
+
 var animate = window.requestAnimationFrame ||
     window.webkitRequestAnimationFrame ||
     window.mozRequestAnimationFrame ||
@@ -154,12 +156,12 @@ var player = new Player();
 var computer = new Computer();
 var ball = new Ball(200, 300);
 
-var render = function() {
-  context.fillStyle = "#fca84e";
-  context.fillRect(0, 0, width, height);
-  player.render();
-  computer.render();
-  ball.render();
+var render = function () {
+    context.fillStyle = "#fca84e";
+    context.fillRect(0, 0, width, height);
+    player.render();
+    computer.render();
+    ball.render();
 };
 
 Computer.prototype.update = function (ball) {

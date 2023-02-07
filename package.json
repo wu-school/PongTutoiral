@@ -1,0 +1,23 @@
+{
+  "name": "wu-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wu-school/PongTutoiral.git"
+  },
+  "author": "Phoenix Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wu-school/PongTutoiral/issues"
+  },
+  "homepage": "https://github.com/wu-school/PongTutoiral#readme",
+  "dependencies": {
+    "electron": "^23.0.0"
+  }
+}
